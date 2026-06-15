@@ -48,7 +48,7 @@
 {#snippet button()}
     <button
         {...props}
-        data-penguinmodsvelteui-button="true"
+        data-patternyardsvelteui-button="true"
         class={`button${kind ? ` button-kind-${kind}` : ""}${` theme-${theme}`} ${props.class || ""}`}
         style={`${colorStyle}outline-color:${outlineColor};${props.style || ""}`}
     >
@@ -69,7 +69,7 @@
         href={link}
         target={noredirect ? "_blank" : "_self"}
         style="text-decoration: none;"
-        data-penguinmodsvelteui-button-link="true"
+        data-patternyardsvelteui-button-link="true"
     >
         {@render button()}
     </a>
@@ -122,7 +122,7 @@
         font-weight: normal;
     }
     .theme-dark.button-kind-border,
-    :global(body.penguinmodsvelteui-theme-dark) .button-kind-border {
+    :global(body.patternyardsvelteui-theme-dark) .button-kind-border {
         outline-color: rgba(255, 255, 255, 0.1) !important;
         border: 1px solid rgba(255, 255, 255, 0.35);
         color: white;

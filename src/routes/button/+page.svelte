@@ -1,53 +1,53 @@
 <script>
-    import * as PenguinModSvelteUI from "$lib/index.js";
+    import * as PatternYardSvelteUI from "$lib/index.js";
 </script>
 
 <h1>Button</h1>
-<PenguinModSvelteUI.Button>
+<PatternYardSvelteUI.Button>
     Button
-</PenguinModSvelteUI.Button>
+</PatternYardSvelteUI.Button>
 <br>
-<PenguinModSvelteUI.Button link="https://example.com">
+<PatternYardSvelteUI.Button link="https://example.com">
     Link
-</PenguinModSvelteUI.Button>
-<PenguinModSvelteUI.Button link="https://example.com" noredirect>
+</PatternYardSvelteUI.Button>
+<PatternYardSvelteUI.Button link="https://example.com" noredirect>
     Link noredirect
-</PenguinModSvelteUI.Button>
+</PatternYardSvelteUI.Button>
 <br>
-<PenguinModSvelteUI.Button kind="border">
+<PatternYardSvelteUI.Button kind="border">
     kind border
-</PenguinModSvelteUI.Button>
-<PenguinModSvelteUI.Button kind="highlighted">
+</PatternYardSvelteUI.Button>
+<PatternYardSvelteUI.Button kind="highlighted">
     kind highlighted
-</PenguinModSvelteUI.Button>
+</PatternYardSvelteUI.Button>
 <br>
-<PenguinModSvelteUI.Button icon="/favicon.svg">
+<PatternYardSvelteUI.Button icon="/favicon.svg">
     Icon
-</PenguinModSvelteUI.Button>
+</PatternYardSvelteUI.Button>
 <br>
-<PenguinModSvelteUI.Button theme="dark">
+<PatternYardSvelteUI.Button theme="dark">
     Theme Dark
-</PenguinModSvelteUI.Button>
+</PatternYardSvelteUI.Button>
 <br>
-<PenguinModSvelteUI.Button color="red">
+<PatternYardSvelteUI.Button color="red">
     Red
-</PenguinModSvelteUI.Button>
-<PenguinModSvelteUI.Button color="gold">
+</PatternYardSvelteUI.Button>
+<PatternYardSvelteUI.Button color="gold">
     Gold
-</PenguinModSvelteUI.Button>
-<PenguinModSvelteUI.Button color="#ff00ff">
+</PatternYardSvelteUI.Button>
+<PatternYardSvelteUI.Button color="#ff00ff">
     #ff00ff
-</PenguinModSvelteUI.Button>
-<PenguinModSvelteUI.Button color="rgb(0, 255, 0)">
+</PatternYardSvelteUI.Button>
+<PatternYardSvelteUI.Button color="rgb(0, 255, 0)">
     rgb(0, 255, 0)
-</PenguinModSvelteUI.Button>
+</PatternYardSvelteUI.Button>
 <br>
-<PenguinModSvelteUI.Button kind="highlighted" color="#ff00ff">
+<PatternYardSvelteUI.Button kind="highlighted" color="#ff00ff">
     kind highlighted + color #ff00ff
-</PenguinModSvelteUI.Button>
-<PenguinModSvelteUI.Button theme="dark" kind="border">
+</PatternYardSvelteUI.Button>
+<PatternYardSvelteUI.Button theme="dark" kind="border">
     Theme Dark + kind border
-</PenguinModSvelteUI.Button>
-<PenguinModSvelteUI.Button kind="border" color="#ff00ff">
+</PatternYardSvelteUI.Button>
+<PatternYardSvelteUI.Button kind="border" color="#ff00ff">
     kind border + color #ff00ff (shouldnt change)
-</PenguinModSvelteUI.Button>
+</PatternYardSvelteUI.Button>
