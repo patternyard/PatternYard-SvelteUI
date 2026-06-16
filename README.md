@@ -1,2 +1,2 @@
-# PenguinMod-SvelteUI
-Reusable Svelte components for PenguinMod-Home and others
+# PatternYard-SvelteUI
+Reusable Svelte components for PatternYard-Home and others
