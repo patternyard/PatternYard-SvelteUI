@@ -25,3 +25,11 @@ vite.config.ts.timestamp-*
 
 # Other stuff
 .dev/*
+# Agent temporary working clones (never commit; created outside-of-tree going forward)
+.svelteui-fix/
+.home-build/
+.home-c7/
+.home-rt/
+.home-ci/
+.arch-ci/
+*-fix/
